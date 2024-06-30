@@ -6,13 +6,13 @@
 /*   By: aichida <aichida@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/27 09:46:30 by aichida           #+#    #+#             */
-/*   Updated: 2024/06/27 11:56:11 by aichida          ###   ########.fr       */
+/*   Updated: 2024/06/30 13:45:44 by aichida          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
 
-// null guard
+// null pointer -> (null)
 
 void	string(char *str, int *len)
 {
@@ -31,8 +31,6 @@ void	string(char *str, int *len)
 		i++;
 	}
 }
-
-// int_min -> other negative ->  positive
 
 void	decimal_or_int(int n, int *len)
 {
@@ -54,7 +52,7 @@ void	decimal_or_int(int n, int *len)
 	}
 }
 
-// use hex
+// use hexadecimal
 
 void	pointer(unsigned long long p, int *len)
 {
@@ -91,7 +89,7 @@ void	hexadecimal(unsigned long long x, int *len, char c)
 		put_and_add(str[i], len);
 }
 
-// no '-' no * no overflow
+// no '-'
 
 void	unsigned_int(unsigned int u, int *len)
 {

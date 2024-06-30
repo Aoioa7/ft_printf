@@ -6,11 +6,9 @@
 /*   By: aichida <aichida@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/27 09:45:58 by aichida           #+#    #+#             */
-/*   Updated: 2024/06/27 12:07:31 by aichida          ###   ########.fr       */
+/*   Updated: 2024/06/30 13:46:06 by aichida          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// write, arg
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
